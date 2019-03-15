@@ -1,0 +1,245 @@
+p {
+  margin: 0;
+}
+a {
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+body .background {
+  background: linear-gradient(#94c2e4, #cee6f0, #f3f7f8, #f1ebd3, #f3ecd2);
+  background-repeat: no-repeat;
+}
+body .background .container {
+  -ms-flex: 1 0 auto;
+      flex: 1 0 auto;
+  margin: 0 auto;
+  height: 1000px;
+  max-width: 1200px;
+}
+body .background .container .ippodrom {
+  top: 15px;
+  height: 524px;
+  position: absolute;
+  background: url("../img/ippodrom.png");
+  background-repeat: no-repeat;
+}
+body .background .container p.grand-prix {
+  margin-top: 38px;
+  font-size: 14px;
+  margin-left: 100px;
+  font-family: Times;
+  position: absolute;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #605f5f;
+}
+body .background .container .social-links-block {
+  width: 195px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 34px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+body .background .container .social-links-block a.vk {
+  width: 27px;
+  height: 27px;
+  background: url("../img/vk.png");
+}
+body .background .container .social-links-block a.facebook {
+  width: 27px;
+  height: 27px;
+  background: url("../img/facebook.png");
+}
+body .background .container .social-links-block a.instagram {
+  width: 27px;
+  height: 27px;
+  background: url("../img/instagram.png");
+}
+body .background .container .social-links-block a.og {
+  width: 27px;
+  height: 27px;
+  background: url("../img/og.png");
+}
+body .background .container .jump-title {
+  margin: 0 auto;
+  margin-top: 28px;
+  text-align: center;
+}
+body .background .container p.grand-prix-title {
+  font-size: 36px;
+  color: #333;
+  margin-top: 11px;
+  font-family: Times;
+  text-align: center;
+  line-height: normal;
+  text-transform: uppercase;
+}
+body .background .container .social-event {
+  margin-top: 18px;
+  text-align: center;
+}
+body .background .container .container-for-two {
+  display: -ms-flexbox;
+  display: flex;
+}
+body .background .container .container-for-two .hourses {
+  width: 670px;
+  height: 417px;
+  z-index: 1;
+  background: url("../img/hourses.png");
+}
+body .background .container .container-for-two .radio-montecarlo-block {
+  text-align: center;
+  margin: 0 auto;
+}
+body .background .container .container-for-two .radio-montecarlo-block .logo-radio {
+  text-align: center;
+}
+body .background .container .container-for-two .radio-montecarlo-block .logo-radio .crown {
+  margin-bottom: 10px;
+}
+body .background .container .container-for-two .radio-montecarlo-block .logo-radio .title {
+  margin-bottom: 20px;
+}
+body .background .container .container-for-two .radio-montecarlo-block .text {
+  margin-bottom: 40px;
+}
+body .background .container .container-for-two .radio-montecarlo-block .text p.place {
+  margin-bottom: 25px;
+  font-family: Times;
+  font-size: 19px;
+  line-height: normal;
+  letter-spacing: 0.0814286px;
+  color: #464646;
+}
+body .background .container .container-for-two .radio-montecarlo-block .text p.date {
+  font-family: Times;
+  font-size: 33px;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #464646;
+}
+body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive {
+  color: #a17e44;
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  padding: 19px 53px;
+  padding-left: 60px;
+  z-index: 3;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 100;
+  box-shadow: 5px 5px 0px 1px rgba(196,162,104,0.22);
+  position: relative;
+  padding: 22px 25px 22px 70px;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive:hover {
+  background-color: #cba46b;
+  color: #fff;
+}
+body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive:hover:after {
+  filter: brightness(0) invert(100%);
+}
+body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive:after {
+  content: "";
+  position: absolute;
+  width: 31px;
+  height: 27px;
+  background: url("../img/camera.svg") center center;
+  top: 18px;
+  left: 24px;
+}
+body .background .container .container-for-two .radio-montecarlo-block .links-group a.pre-order {
+  color: #a17e44;
+  font-size: 18px;
+  display: inline-block;
+  background: #fff;
+  padding: 19px 53px;
+  padding-left: 60px;
+  z-index: 3;
+  position: relative;
+  margin-top: 10px;
+  font-weight: 100;
+  box-shadow: 5px 5px 0px 1px rgba(196,162,104,0.22);
+  position: relative;
+  padding: 22px 35px 22px 35px;
+  margin-left: 10px;
+}
+body .background .container .container-for-two .radio-montecarlo-block .links-group a.pre-order:hover {
+  background-color: #cba46b;
+  color: #fff;
+}
+body .background .line-gradient {
+  background: linear-gradient(to top, #fff 0%, #fff 20%, rgba(255,255,255,0) 100%);
+  width: 100%;
+  height: 130px;
+  margin-top: -110px;
+}
+footer .container-footer {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+footer .container-footer .footer-links-block {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 70px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+footer .container-footer .social-footer-block {
+  width: 195px;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 34px;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+footer .container-footer .social-footer-block a.vk {
+  width: 23px;
+  height: 23px;
+  background: url("../img/vk-fut.png");
+}
+footer .container-footer .social-footer-block a.facebook {
+  width: 23px;
+  height: 23px;
+  background: url("../img/facebook-fut.png");
+}
+footer .container-footer .social-footer-block a.instagram {
+  width: 23px;
+  height: 23px;
+  background: url("../img/instagram-fut.png");
+}
+footer .container-footer .social-footer-block a.og {
+  width: 23px;
+  height: 23px;
+  background: url("../img/og-fut.png");
+}
+footer a.apptimizm {
+  float: right;
+  right: 0;
+  top: 15px;
+  z-index: 2;
+  margin-right: 50px;
+}
+footer p.center {
+  opacity: 0.4;
+  color: #464646;
+  font-size: 10px;
+  text-align: center;
+  font-family: Times;
+  margin-left: 115px;
+  line-height: normal;
+  margin-bottom: 60px;
+  letter-spacing: 0.0814286px;
+}
