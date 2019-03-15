@@ -4,6 +4,7 @@
   }
   body .background .container .ippodrom {
     top: 60px;
+    width: 100%;
   }
   body .background .container .container-for-two {
     display: block;

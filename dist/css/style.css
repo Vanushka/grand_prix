@@ -21,7 +21,7 @@ body .background .container {
 }
 body .background .container .ippodrom {
   top: 15px;
-  width: 100%;
+  width: 1200px;
   height: 524px;
   max-height: 600px;
   position: absolute;
@@ -252,6 +252,7 @@ footer p.center {
   }
   body .background .container .ippodrom {
     top: 60px;
+    width: 100%;
   }
   body .background .container .container-for-two {
     display: block;
