@@ -48,21 +48,25 @@ body .background .container .social-links-block {
       justify-content: space-between;
 }
 body .background .container .social-links-block a.vk {
+  z-index: 10;
   width: 27px;
   height: 27px;
   background: url("../img/vk.png");
 }
 body .background .container .social-links-block a.facebook {
+  z-index: 10;
   width: 27px;
   height: 27px;
   background: url("../img/facebook.png");
 }
 body .background .container .social-links-block a.instagram {
+  z-index: 10;
   width: 27px;
   height: 27px;
   background: url("../img/instagram.png");
 }
 body .background .container .social-links-block a.og {
+  z-index: 10;
   width: 27px;
   height: 27px;
   background: url("../img/og.png");
@@ -97,8 +101,9 @@ body .background .container .container-for-two .hourses {
   background-repeat: no-repeat;
 }
 body .background .container .container-for-two .radio-montecarlo-block {
-  text-align: center;
+  z-index: 10;
   margin: 0 auto;
+  text-align: center;
 }
 body .background .container .container-for-two .radio-montecarlo-block .logo-radio {
   text-align: center;
