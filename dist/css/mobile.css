@@ -1,0 +1,119 @@
+@media screen and (max-device-width: 1200px) {
+  body .background .container {
+    height: 1200px;
+  }
+  body .background .container .ippodrom {
+    top: 60px;
+  }
+  body .background .container .container-for-two {
+    display: block;
+  }
+  body .background .container .container-for-two .hourses {
+    width: 100%;
+    background-position: center;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block {
+    margin: 20px auto;
+  }
+  footer .container-footer .footer-links-block {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-bottom: 35px;
+    padding: 0 20px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  footer .container-footer .footer-links-block a {
+    margin: 8px 8px;
+  }
+  footer .container-footer .social-footer-block {
+    padding-top: 0;
+  }
+  footer a.apptimizm {
+    float: none;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0;
+    margin-top: 30px;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  footer p.center {
+    width: 80%;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+}
+@media screen and (max-device-width: 768px) {
+  body .background .container {
+    height: 1300px;
+  }
+  body .background .container .social-links-block {
+    padding-top: 20px;
+  }
+  body .background .container .ippodrom {
+    top: 150px;
+    height: inherit;
+  }
+  body .background .container .jump-title {
+    margin-top: 170px;
+  }
+  body .background .container .jump-title img {
+    width: 80%;
+  }
+  body .background .container p.grand-prix {
+    margin-top: 50px;
+    margin-left: 0;
+    -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+  }
+  body .background .container .social-event {
+    margin: 15px auto;
+  }
+  body .background .container .social-event img {
+    width: 70%;
+  }
+  body .background .container .container-for-two {
+    display: block;
+  }
+  body .background .container .container-for-two .hourses {
+    width: 100%;
+    opacity: 0.99;
+    margin-top: 35px;
+    background-size: contain;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block .logo-radio {
+    top: 60px;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block .text {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    white-space: normal;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block .links-group {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive {
+    margin-left: 0;
+    margin-right: 25px;
+    padding: 22px 10px 22px 10px;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive:after {
+    display: none;
+  }
+  body .background .container .container-for-two .radio-montecarlo-block .links-group a.pre-order {
+    margin-left: -5px;
+    padding: 22px 10px 22px 10px;
+  }
+}
