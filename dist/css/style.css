@@ -296,9 +296,6 @@ footer p.center {
   }
 }
 @media screen and (max-device-width: 768px) {
-  body .background .container {
-    height: 1300px;
-  }
   body .background .container .social-links-block {
     padding-top: 20px;
   }
@@ -362,5 +359,11 @@ footer p.center {
   body .background .container .container-for-two .radio-montecarlo-block .links-group a.pre-order {
     margin-left: -5px;
     padding: 22px 10px 22px 10px;
+  }
+}
+@media screen and (max-device-width: 375px) {
+  body .background .container .container-for-two .radio-montecarlo-block .links-group a.photoarchive,
+  body .background .container .container-for-two .radio-montecarlo-block .links-group a.pre-order {
+    padding: 20px 5px 20px 5px;
   }
 }
