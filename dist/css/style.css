@@ -21,6 +21,7 @@ body .background .container {
 }
 body .background .container .ippodrom {
   top: 15px;
+  width: 100%;
   height: 524px;
   position: absolute;
   background: url("../img/ippodrom.png");
