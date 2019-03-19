@@ -36,6 +36,49 @@
       margin: 0 auto
       margin-bottom: 40px
       justify-content: center
+@media (max-device-width: 979px)
+  .form
+    padding-left: 10px
+    padding-right: 10px
+    padding: 30px 10px
+    width: 100%
+    -webkit-box-sizing: border-box
+    box-sizing: border-box
+    .close
+      margin-top: -20px
+    .first
+      display: block
+      a
+        width: 25%
+        display: inline-block
+        text-align: center
+        margin-bottom: 5px
+    .gall
+      .images
+        margin-left: 0
+        height: 360px
+        overlay: hidden
+        max-width: 100%
+        li.active
+          display: block
+          margin-left: 50% !important
+          -webkit-transform: translateX(-50%)
+          -ms-transform: translateX(-50%)
+          transform: translateX(-50%)
+          margin-top: 10px !important
+          img
+            width: auto !important
+            max-height: 320px
+        li.next
+          display: block
+          position: absolute
+          display: none
+          opacity: 0.3
+          margin-left: 625px
+          margin-top: 100px
+        li.prev
+          display: block
+          display: none
 @media screen and (max-device-width: 768px)
   body
     .background
